@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf5;
+  color: #333;
+}
+
+header {
+  background-color: #d4af37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2.7em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 100px 200px;
+  background-image: url(https://mustafajewellery.com/wp-content/uploads/2024/08/SG-Family-1.png);
+  font-family: cursive;
+}
+
+.hero h2 span {
+  color: #d4af37;
+}
+
+.btn {
+  background-color: #d4af37;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.4em;
+  transition: background-color 0.3s;
+}
+
+.products {
+  padding: 40px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+}
+
+.row {
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.bttn {
+  background-color: #d4af37;
+  color: black;
+  padding: 10px 20px;
+  border:medium;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.0em;
+  transition: background-color 0.3s;
+}
+
+footer {
+  background-color: #d4af37;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
